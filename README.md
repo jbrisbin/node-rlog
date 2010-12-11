@@ -22,11 +22,12 @@ To use it in your Node.js application, do the following:
 
 When you want to view your log files, use the 'noderlog' command line utility:
 
-    noderlog -b bucketname
+    > noderlog -b bucketname
+    2010-12-11T17:20:19.910Z [DEBUG] This is a debug line:  { test: 'value' } { test: 'object' }
 
 A list of the options available to the noderlog utility can be output by passing a '-h':
 
-    noderlog -h
+    > noderlog -h
     Usage: rlog [options]
 
     Available options:
@@ -40,11 +41,11 @@ A list of the options available to the noderlog utility can be output by passing
 
 To limit the output to a particular log level, use the options for that level.
 
-    noderlog -b bucketname -i
+    > noderlog -b bucketname -i
 
 If you want to search your log output based on a regular expression, pass it using '-r':
 
-    noderlog -b bucketname -r "^startswith"
+    > noderlog -b bucketname -r "^startswith"
 
 This utility is licensed under the Apache 2.0 license:
 
