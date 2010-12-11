@@ -1,0 +1,8 @@
+{
+  "name": "node-rlog",
+  "description": "Remote logging to Riak",
+  "version": "0.1.0",
+  "author": "J. Brisbin <jon@jbrisbin.com>",
+  "main": "./index.js",
+  "bin": { "noderlog": "./viewer" }
+}
