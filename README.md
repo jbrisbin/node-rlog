@@ -47,6 +47,4 @@ If you want to search your log output based on a regular expression, pass it usi
 
     > noderlog -b bucketname -r "^startswith"
 
-This utility is licensed under the Apache 2.0 license:
-
-http://www.apache.org/licenses/LICENSE-2.0.html
+This utility is licensed under [the Apache 2.0 license](http://www.apache.org/licenses/LICENSE-2.0.html).
