@@ -4,5 +4,9 @@
   "version": "0.1.0",
   "author": "J. Brisbin <jon@jbrisbin.com>",
   "main": "./index.js",
-  "bin": { "noderlog": "./viewer" }
+  "bin": { "noderlog": "./viewer" },
+  "dependencies": {
+    "riak-js": ">= 0.3.0beta4",
+    "optparse": ">= 1.0.1"
+  }
 }
